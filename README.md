@@ -1,7 +1,7 @@
 # Python_Trainings_and_Templates
 
 The Python_Trainings_and_Templates repo contains:
-- Documentation for training purposes
+- Documentation for training purposes around Python
 - Templates:
   - Python code templates
   - Data Architecture document templates
