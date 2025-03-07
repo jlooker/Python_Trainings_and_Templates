@@ -40,10 +40,6 @@
     # Used to store data in Series and DataFrames	
 %pip install pandas
 
-# Install the snowflake-connector-python[pandas] Python package
-    # Used to connect to Snowflake and utilize Pandas DataFrames	
-%pip install snowflake-connector-python[pandas]
-
 # Restart the kernel to use updated packages
     # Databricks specific command that is required to use any newly install Python packages listed above
 %restart_python
@@ -69,16 +65,6 @@ import fnmatch
     # This Python library is already pre-installed within every Snowflake notebook, therefore does not need to be manually imported within this Snowflake notebook
         # The import statement is listed for dev purposes when building and testing in Visual Studio Code and commented out when executed in Snowflake notebook
 import pandas as pd
-
-# Enables the ability to connect to the Snowflake Data Warehouse
-    # This Python library is already pre-installed within every Snowflake notebook, therefore does not need to be manually imported within this Snowflake notebook
-        # The import statement is listed for dev purposes when building and testing in Visual Studio Code and commented out when executed in Snowflake notebook
-import snowflake.connector
-
-# Enables the ability to write data into Snowflake from Pandas DataFrames
-    # This Python library is already pre-installed within every Snowflake notebook, therefore does not need to be manually imported within this Snowflake notebook
-        # The import statement is listed for dev purposes when building and testing in Visual Studio Code and commented out when executed in Snowflake notebook
-from snowflake.connector.pandas_tools import write_pandas
 
 
 ##############################################################################################################
